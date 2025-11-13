@@ -9,48 +9,42 @@ redirect_from:
 
 {% include base_path %}
 
+[Download PDF Version](/files/Yanbo_Zhao_CV_2025_Nov.pdf)
+
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* **Ph.D. in Computer Science**, North Carolina State University, 2022 - Present
+  * Advisors: [Dr. Jiajia Li](https://fruitfly1026.github.io/) and [Dr. Xu Liu](https://xl10.github.io/)
+  * Focus: GPU Performance Analysis, Profiling, and Optimization
 
-Work experience
+* **M.S. in Software Engineering**, Shandong University, 2019 - 2022
+  * Advisor: [Dr. Lei Ju](https://ieeexplore.ieee.org/author/37544824100)
+
+* **B.S. in Software Engineering**, Shandong University, 2015 - 2019
+
+Work Experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* **Summer 2025: Research Intern**
+  * Pacific Northwest National Laboratory (PNNL), Richland, WA
+  * Project: HPC-in-Triton - deploying AI infrastructure in HPC applications
+  * Mentor: [Dr. Ajay Panyala](https://www.pnnl.gov/people/ajay-panyala)
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* **August 2022 - Present: Teaching/Research Assistant**
+  * North Carolina State University, Raleigh, NC
+  * Teaching Assistant for CSC246 (Operating Systems), Fall 2022 - Spring 2024
+  * Research Assistant supervised by Dr. Jiajia Li and Dr. Xu Liu
   
-Skills
+Skills & Expertise
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* **Programming Languages**: C/C++, Python, Shell
+* **Parallel & Architecture**: CUDA (PTX, SASS), OpenMP, Triton, ROCm, GPU Architecture
+* **Profiling Tools**: Nsight Compute/System, NVbit, CUPTI, Compute Sanitizer API, HPCToolkit
+* **Systems & Performance**: GPU/CPU co-scheduling, Memory redundancy detection
 
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
   
 Teaching
@@ -59,6 +53,13 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
+Service
 ======
-* Currently signed in to 43 different slack teams
+* **SPAA 2025**: Junior Program Committee
+* **PPoPP 2025**: Artifact Evaluation Committee
+
+Honors & Awards
+======
+* 2025 NCSU GSA Conference Travel Awards
+* 2018 World third prize of DAC-SDC: Lower Power Object Detection Challenge
+* 2016 Provincial third prize of China Undergraduate Mathematical Contest in Modeling
