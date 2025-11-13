@@ -1,13 +1,13 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Yanbo Zhao",
+    "email": "yzhao62@ncsu.edu",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "https://flagzhao.github.io/FlagZhao/",
+    "summary": "I am a Ph.D. student at North Carolina State University, advised by Prof. Xu Liu and Prof. Jiajia Li. My research interests include GPU architecture, compiler, profiling tool, and CUDA program optimization.",
     "location": {
-      "address": "",
-      "postalCode": "",
+      "address": "Raleigh,NC",
+      "postalCode": "27529",
       "city": "Earth",
       "countryCode": "US",
       "region": ""
@@ -16,46 +16,46 @@
       {
         "network": "Google Scholar",
         "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+        "url": "https://scholar.google.com/citations?user=GNiWWnMAAAAJ"
       },
       {
         "network": "ORCID",
         "username": "",
-        "url": "https://orcid.org/yourorcidurl"
+        "url": "https://orcid.org/0009-0007-5038-7783"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "FlagZhao",
+        "url": "https://github.com/FlagZhao"
       }
     ]
   },
   "work": [],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
+      "institution": "North Carolina State University",
+      "area": "Ph.D in Computer Science",
+      "studyType": "full-time",
+      "startDate": "2022-08",
+      "endDate": "TBD (expected in 2027)",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
+      "institution": "Shandong University",
+      "area": "M.S. in Software Engineering",
+      "studyType": "full-time",
+      "startDate": "2019-09",
+      "endDate": "2022-06",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
+      "institution": "Shandong University",
+      "area": "B.S. in Software Engineering",
+      "studyType": "full-time",
+      "startDate": "2015-09",
+      "endDate": "2019-06",
       "gpa": null,
       "courses": []
     }
@@ -66,77 +66,26 @@
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "RedSan: A Redundant Memory Instruction Sanitizer for GPU Programs",
+      "publisher": "SC25",
+      "releaseDate": "2025-11-15",
+      "website": "To Appear",
+      "summary": "This paper is about detecting redundant memory instructions in fully optimized binaries of GPU programs."
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
+      "name": "cuThermo: Understanding Memory Inefficiencies in GPU Applications via Heatmap Profiling",
+      "publisher": "arxiv",
       "releaseDate": "2010-10-01",
       "website": "https://academicpages.github.io/files/paper2.pdf",
       "summary": "This paper is about the number 2. The number 3 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
-    }
-  ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
+    }  
   ],
   "teaching": [
     {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
+      "course": "CSC246: Operating Systems(Undergraduate)",
+      "institution": "North Carolina State University",
+      "date": "2022-08 - 2024-06",
+      "role": "Teaching Assistant",
       "description": ""
     }
   ],
