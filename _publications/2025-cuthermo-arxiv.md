@@ -1,7 +1,7 @@
 ---
 title: "cuThermo: Understanding GPU Memory Inefficiencies with Heat Map Profiling"
 collection: publications
-category: manuscripts
+category: preprints
 permalink: /publication/2025-cuthermo-arxiv
 excerpt: 'A novel GPU memory profiler utilizing dynamic binary instrumentation and heat map visualization to identify runtime inefficiencies, achieving speedups of up to 721.79%.'
 date: 2025-04-01
