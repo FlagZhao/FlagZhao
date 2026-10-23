@@ -4,10 +4,10 @@ collection: publications
 category: preprints
 permalink: /publication/2025-cuthermo-arxiv
 excerpt: 'A novel GPU memory profiler utilizing dynamic binary instrumentation and heat map visualization to identify runtime inefficiencies, achieving speedups of up to 721.79%.'
-date: 2025-04-01
+date: 2025-07-24
 venue: 'arXiv Preprint (Under Review)'
-paperurl: ''
-citation: '<b>Yanbo Zhao</b>, Jinku Cui, Zecheng Li, Shuyin Jiao, Xu Liu, and Jiajia Li. (2025). &quot;cuThermo: Understanding GPU Memory Inefficiencies with Heat Map Profiling.&quot; <i>arXiv Preprint</i>.'
+paperurl: 'https://arxiv.org/abs/2507.18729'
+citation: '<b>Yanbo Zhao</b>, Jinku Cui, Zecheng Li, Shuyin Jiao, Xu Liu, and Jiajia Li. (2025). &quot;cuThermo: Understanding GPU Memory Inefficiencies with Heat Map Profiling.&quot; <i>arXiv:2507.18729</i>.'
 ---
 
 ## Abstract
@@ -24,5 +24,5 @@ cuThermo is a novel GPU memory profiler that utilizes dynamic binary instrumenta
 
 ## Status
 
-Preprint available on arXiv. Currently under review.
+Preprint available on [arXiv:2507.18729](https://arxiv.org/abs/2507.18729). Currently under review.
 

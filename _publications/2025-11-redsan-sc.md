@@ -1,13 +1,13 @@
 ---
-title: "RedSan: Redundant Memory Instruction Sanitizer for GPU Programs"
+title: "RedSan: A Redundant Memory Instruction Sanitizer for GPU Programs"
 collection: publications
 category: conferences
 permalink: /publication/2025-11-redsan-sc
 excerpt: 'A novel dynamic binary instrumentation tool to automatically detect and quantify redundant memory instructions in fully optimized GPU applications, achieving up to 6.27x performance speedup.'
 date: 2025-11-01
 venue: 'SC 2025 (International Conference for High Performance Computing, Networking, Storage and Analysis)'
-paperurl: ''
-citation: '<b>Yanbo Zhao</b>, Yueming Hao, Zecheng Li, Shuyin Jiao, Xu Liu, and Jiajia Li. (2025). &quot;RedSan: Redundant Memory Instruction Sanitizer for GPU Programs.&quot; <i>SC 2025</i>.'
+paperurl: 'https://dl.acm.org/doi/10.1145/3712285.3759830'
+citation: '<b>Yanbo Zhao</b>, Yueming Hao, Zecheng Li, Shuyin Jiao, Xu Liu, and Jiajia Li. (2025). &quot;RedSan: A Redundant Memory Instruction Sanitizer for GPU Programs.&quot; <i>SC 2025</i>, pp. 368-382. DOI: <a href="https://doi.org/10.1145/3712285.3759830">10.1145/3712285.3759830</a>.'
 ---
 
 ## Abstract
@@ -24,5 +24,5 @@ RedSan is a dynamic binary instrumentation tool that operates without source cod
 
 ## Venue
 
-SC 2025 - The International Conference for High Performance Computing, Networking, Storage and Analysis (Accepted, to appear)
+SC 2025 - The International Conference for High Performance Computing, Networking, Storage and Analysis, pp. 368-382. [ACM DL](https://dl.acm.org/doi/10.1145/3712285.3759830)
 

@@ -7,22 +7,35 @@ redirect_from:
   - /about.html
 ---
 
-I am a 4th-year Ph.D. student in Computer Science at North Carolina State University, advised by [Dr. Jiajia Li](https://fruitfly1026.github.io/) and [Dr. Xu Liu](https://xl10.github.io/). My research focuses on GPU performance analysis, profiling, and optimization.
+I am a 5th-year Ph.D. student in Computer Science at North Carolina State University, advised by [Dr. Jiajia Li](https://fruitfly1026.github.io/) and [Dr. Xu Liu](https://xl10.github.io/), and expect to graduate in May 2027. My research focuses on GPU performance analysis, profiling, and optimization: I build binary-level tools that expose hidden memory inefficiencies in GPU programs and turn them into concrete optimizations.
+
+Before NC State, I received my M.S. (advised by Dr. Lei Ju) and B.S. in Software Engineering from Shandong University.
+
+## News
+
+- **2026.05**: Joined **Google** as a Student Researcher (Durham, NC), working on fast, zero-shot type annotation for C++ binaries.
+- **2026**: *TIDES* (tiered block-sparse tensor contraction on GPUs) accepted to **SC 2026** (to appear).
+- **2026.06**: *[SparseZETA](https://pldi26.sigplan.org/details/pldi-2026-papers/70/SparseZETA-Intelligent-Auto-tuner-for-Designing-High-Performance-SpMV-Programs)* (SpMV auto-tuner) presented at **PLDI 2026**.
+- **2026.06**: Presented our PNNL internship work, *[Leveraging AI Ecosystem for Portable and Sustainable GPU Kernels in HPC](https://pldi26.sigplan.org/details/ARRAY-2026-papers/3/Leveraging-AI-Ecosystem-for-Portable-and-Sustainable-GPU-Kernels-in-HPC)*, at **ARRAY 2026** (co-located with PLDI).
+- **2026**: Serving on the Program Committees of **SC 26**, **ICS 27**, **ISC 26**, and **IEEE BigData 26**.
+- **2025.11**: *[RedSan: A Redundant Memory Instruction Sanitizer for GPU Programs](https://dl.acm.org/doi/10.1145/3712285.3759830)* presented at **SC 2025**.
+- **2025.06**: Research intern at **Pacific Northwest National Laboratory (PNNL)**.
 
 ## Research Interests
 
-My research lies at the intersection of high-performance computing, GPU architecture, and system performance optimization. I specialize in:
+My research lies at the intersection of high-performance computing, GPU architecture, and system performance optimization:
 
-- **GPU Performance Analysis & Profiling**: Developing novel dynamic binary instrumentation tools to identify performance bottlenecks in GPU applications
-- **Memory System Optimization**: Detecting and eliminating redundant memory operations and improving memory access patterns
-- **Heterogeneous Computing**: GPU/CPU co-scheduling and system-level performance optimization
-- **Compilation & Code Generation**: Building bridges between AI ecosystems (Triton) and traditional HPC codebases
+- **GPU Performance Analysis & Profiling**: Dynamic binary instrumentation tools (NVBit, Compute Sanitizer) that find bottlenecks in GPU binaries without source code
+- **Memory System Optimization**: Detecting redundant memory operations, analyzing reuse distance and in-kernel data flow, and improving memory access patterns
+- **Compilation & Code Generation**: Bridging AI ecosystems (Triton) and traditional HPC codebases for portable, sustainable GPU kernels
+- **Binary Analysis**: Type recovery for optimized binaries to support production-scale profiling
 
-## Recent Highlights
+## Selected Projects
 
-- **SC 2025**: Our paper "RedSan: Redundant Memory Instruction Sanitizer for GPU Programs" has been accepted to SC 2025
-- **Summer 2025 Internship**: Research intern at Pacific Northwest National Laboratory (PNNL), working on deploying AI infrastructure in HPC applications
-- **Service**: Serving on the Junior Program Committee for SPAA 2025 and Artifact Evaluation Committee for PPoPP 2025
+- **cuVein** *(under review)*: Introduces *Topology Distance*, a metric linking a program's logical data flow to the physical communication cost of GPU hardware. A lock-free parallel analyzer enables full-volume shadow memory analysis with under 10× end-to-end overhead.
+- **[RedSan](https://dl.acm.org/doi/10.1145/3712285.3759830)** *(SC 2025)*: A sanitizer that detects and quantifies redundant memory instructions in GPU binaries, guiding up to **6.27×** speedups and uncovering a compiler correctness issue with CUDA's `__restrict__`.
+- **[cuThermo](https://arxiv.org/abs/2507.18729)** *(arXiv)*: A heat-map GPU memory profiler built on a warp-count metric that detects five classes of memory inefficiency, guiding up to **721.79%** speedups.
+- **TypeCraft++** *(Google, ongoing)*: A single-pass register type coloring algorithm for C++ binaries with partial DWARF, reaching over 60% coverage on SPEC CPU2017 with 5× lower annotation overhead.
 
 ## Technical Skills
 
@@ -30,6 +43,6 @@ My research lies at the intersection of high-performance computing, GPU architec
 
 **Parallel Computing & Architecture**: CUDA (PTX, SASS), OpenMP, Triton, ROCm, GPU Architecture
 
-**Profiling & Analysis Tools**: Nsight Compute/System, NVbit, CUPTI, Compute Sanitizer API, HPCToolkit
+**Profiling & Analysis Tools**: Nsight Compute/System, NVBit, CUPTI, Compute Sanitizer API, HPCToolkit
 
-**Research Focus**: GPU/CPU co-scheduling, Memory redundancy detection, Dynamic binary instrumentation
+**Systems & Performance**: GPU/CPU co-scheduling, Memory redundancy detection

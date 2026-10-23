@@ -17,7 +17,7 @@ This document summarizes all the updates made to your academic website based on 
   - Memory System Optimization
   - Heterogeneous Computing
   - Compilation & Code Generation
-- Added "Recent Highlights" section featuring:
+- Added "News" section (formerly "Recent Highlights") featuring:
   - SC 2025 paper acceptance (RedSan)
   - PNNL summer 2025 internship
   - Service roles (SPAA 2025 JPC, PPoPP 2025 AEC)

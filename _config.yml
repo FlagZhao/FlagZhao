@@ -26,7 +26,7 @@ author:
   avatar           : "profile.png"
   name             : "Yanbo Zhao"
   pronouns         : # example: "she/her"  
-  bio              : "4th-Year Ph.D. Student in Computer Science"
+  bio              : "5th-Year Ph.D. Student in Computer Science"
   location         : "Raleigh, NC, USA"
   employer         : "North Carolina State University"
   uri              : # URL
@@ -83,6 +83,8 @@ author:
 publication_category:
   conferences:
     title: 'Conference Papers'
+  workshops:
+    title: 'Workshop Papers'
   preprints:
     title: 'Preprints'
   manuscripts:
