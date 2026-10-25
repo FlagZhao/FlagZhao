@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a 5th-year Ph.D. student in Computer Science at North Carolina State University, advised by [Dr. Jiajia Li](https://fruitfly1026.github.io/) and [Dr. Xu Liu](https://xl10.github.io/), and expect to graduate in May 2027. My research focuses on GPU performance analysis, profiling, and optimization: I build binary-level tools that expose hidden memory inefficiencies in GPU programs and turn them into concrete optimizations.
+I am a 5th-year Ph.D. candidate in Computer Science at North Carolina State University, advised by [Dr. Jiajia Li](https://fruitfly1026.github.io/) and [Dr. Xu Liu](https://xl10.github.io/), and expect to graduate in May 2027. My research focuses on GPU performance analysis, profiling, and optimization: I build binary-level tools that expose hidden memory inefficiencies in GPU programs and turn them into concrete optimizations.
 
 Before NC State, I received my M.S. (advised by Dr. Lei Ju) and B.S. in Software Engineering from Shandong University.
 

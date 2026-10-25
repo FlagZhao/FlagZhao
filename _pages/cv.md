@@ -13,7 +13,7 @@ redirect_from:
 
 Education
 ======
-* **Ph.D. in Computer Science**, North Carolina State University, Sept 2022 - Present (Expected: May 2027)
+* **Ph.D. in Computer Science** (Ph.D. Candidate), North Carolina State University, Sept 2022 - Present (Expected: May 2027)
   * Advisors: [Dr. Jiajia Li](https://fruitfly1026.github.io/) and [Dr. Xu Liu](https://xl10.github.io/)
   * Focus: GPU Performance Analysis, Profiling, and Optimization
 

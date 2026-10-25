@@ -1,6 +1,6 @@
 Hi, I am FlagZhao.
 
-I am a Ph.D. student at North Carolina State University, advised by Prof. Xu Liu and Prof. Jiajia Li.
+I am a Ph.D. candidate at North Carolina State University, advised by Prof. Xu Liu and Prof. Jiajia Li.
 
 My research interests include GPU architecture, GPU programming models, performance optimization for GPU applications, and prfiling tools for GPU programs.
 
